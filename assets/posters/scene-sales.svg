@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf5ff"/>
+      <stop offset="100%" stop-color="#c7dbf4"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <line x1="230" y1="270" x2="470" y2="270" stroke="#5c94dc" stroke-width="3" stroke-dasharray="8 10"/>
+  <line x1="490" y1="270" x2="730" y2="270" stroke="#5c94dc" stroke-width="3" stroke-dasharray="8 10"/>
+  <polygon points="470,262 486,270 470,278" fill="#5c94dc"/>
+  <polygon points="730,262 746,270 730,278" fill="#5c94dc"/>
+
+  <g>
+    <circle cx="170" cy="270" r="76" fill="#ffffff" stroke="#2f6fb8" stroke-width="3"/>
+    <rect x="128" y="248" width="84" height="52" rx="4" fill="none" stroke="#2f6fb8" stroke-width="4"/>
+    <line x1="128" y1="266" x2="212" y2="266" stroke="#2f6fb8" stroke-width="3"/>
+    <line x1="150" y1="248" x2="150" y2="300" stroke="#2f6fb8" stroke-width="3"/>
+    <line x1="190" y1="248" x2="190" y2="300" stroke="#2f6fb8" stroke-width="3"/>
+    <text x="170" y="372" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#16323c">メーカー</text>
+  </g>
+
+  <g>
+    <circle cx="480" cy="270" r="92" fill="#2f6fb8"/>
+    <circle cx="480" cy="240" r="26" fill="#ffffff"/>
+    <path d="M 432 320 Q 480 262 528 320 Z" fill="#ffffff"/>
+    <text x="480" y="388" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#16323c">営業代行</text>
+  </g>
+
+  <g>
+    <circle cx="790" cy="270" r="76" fill="#ffffff" stroke="#2f6fb8" stroke-width="3"/>
+    <path d="M 748 250 L 758 232 L 822 232 L 832 250 Z" fill="none" stroke="#2f6fb8" stroke-width="4"/>
+    <rect x="750" y="250" width="80" height="52" fill="none" stroke="#2f6fb8" stroke-width="4"/>
+    <rect x="770" y="270" width="18" height="32" fill="#2f6fb8"/>
+    <text x="790" y="372" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#16323c">サロン・代理店</text>
+  </g>
+</svg>

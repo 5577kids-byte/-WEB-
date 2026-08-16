@@ -1,0 +1,20 @@
+{
+  "name": "business-ai-website-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A multi-page Japanese B2B AI consulting website template with guided Claude Code onboarding.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-public.mjs",
+    "dev": "node scripts/build-public.mjs && node scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node scripts/build-public.mjs && node scripts/test-site.mjs",
+    "test:home": "node scripts/build-public.mjs && node scripts/test-site.mjs home-desktop home-mobile",
+    "readiness": "node scripts/check-template.mjs",
+    "deploy": "bash deploy.sh --deploy"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1",
+    "pngjs": "^7.0.0"
+  }
+}

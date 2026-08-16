@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせありがとうございます | Aprire -アプリーレ-</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      background: #eff6ff;
+      color: #1e293b;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 3.5rem 2.5rem;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 48px rgba(0,0,0,.1);
+    }
+    .status { color: #1d4ed8; font-size: .8rem; font-weight: 900; letter-spacing: .08em; margin-bottom: 1rem; }
+    h1 { font-size: 1.8rem; font-weight: 900; color: #2563eb; margin-bottom: .8rem; }
+    p  { font-size: .95rem; color: #64748b; line-height: 1.85; margin-bottom: 1.5rem; }
+    a  {
+      display: inline-block;
+      padding: 14px 36px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 8px;
+      font-size: .95rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background .25s;
+    }
+    a:hover { background: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="status">MESSAGE SENT</p>
+    <h1>送信が完了しました</h1>
+    <p>
+      お問い合わせありがとうございます。<br>
+      内容を確認のうえ、<strong>2営業日以内</strong>にご連絡いたします。<br>
+      しばらくお待ちください。
+    </p>
+    <a href="/">トップページに戻る</a>
+  </div>
+</body>
+</html>

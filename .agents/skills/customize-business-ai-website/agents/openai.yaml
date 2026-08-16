@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIコンサルHP制作"
+  short_description: "初心者と進めるBtoB AIコンサルHPの制作・検査・公開"
+  default_prompt: "$customize-business-ai-website を使って、このサイトの内容変更から表示検査・公開まで初心者向けに進めてください。"

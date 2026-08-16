@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Generated public build
+dist/
+.dist-build/
+
+# Cloudflare local state
+.wrangler/
+
+# Environment variables and credentials
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local AI agent settings and private instructions
+.claude/settings.local.json
+.codex/
+CLAUDE.local.md
+
+# Local source media and working files
+source-videos/
+tmp/
+output/
+private/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# Files intentionally retired from the original project
+admin/
+SPEC.md
+script.js
+data/cases.json
+data/news.json
+data/voices.json
+data/portfolio.json
+assets/instructor.jpg
+assets/instructor.webp
+assets/office.jpg
+scripts/browser-frame.html
+scripts/browser-smoke.mjs
+scripts/capture-sphere-posters.mjs
