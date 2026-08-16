@@ -173,20 +173,20 @@ const motionData = {
   thinking: {
     title: '思考と感情を、構造で整理する。',
     copy: '事実・解釈・感情・期待・役割・責任・境界線の順に状況を分解し、自分で判断できる状態をつくります。',
-    poster: '/assets/posters/scene-thinking.svg',
+    poster: '/assets/posters/scene-thinking.jpg',
     alt: '思考整理セッションのイメージ',
   },
   sales: {
     title: 'メーカーと販売店の間をつなぐ。',
     copy: '商品提案、商談、展示会営業、既存取引先のフォローまで、営業現場に立って支援します。',
-    poster: '/assets/posters/scene-sales.svg',
+    poster: '/assets/posters/scene-sales.jpg',
     alt: '営業代行・営業支援のイメージ',
   },
   beauty: {
     title: '美容・ヘルスケア商品の販路を広げる。',
     copy: 'シャンプーブラシ、スカルプブラシ、ネイル関連商品など、美容業界向けの販売支援を行います。',
-    poster: '/assets/posters/scene-beauty.png',
-    alt: '美容商材の販売支援イメージ',
+    poster: '/assets/posters/scene-beauty.jpg',
+    alt: '商品のご提案イメージ',
   },
 };
 
