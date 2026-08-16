@@ -173,7 +173,7 @@ const motionData = {
   thinking: {
     title: '思考と感情を、構造で整理する。',
     copy: '事実・解釈・感情・期待・役割・責任・境界線の順に状況を分解し、自分で判断できる状態をつくります。',
-    poster: '/assets/posters/scene-thinking.jpg',
+    poster: '/assets/posters/scene-thinking.svg',
     alt: '思考整理セッションのイメージ',
   },
   sales: {

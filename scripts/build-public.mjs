@@ -31,7 +31,7 @@ const requiredFiles = [
   'assets/images/product-brush-ocean.png',
   'assets/images/home-sphere-desktop.png',
   'assets/images/home-sphere-mobile.png',
-  'assets/posters/scene-thinking.jpg',
+  'assets/posters/scene-thinking.svg',
   'assets/posters/scene-sales.svg',
   'assets/posters/scene-beauty.png',
   'assets/vendor/three.module.min.js',
