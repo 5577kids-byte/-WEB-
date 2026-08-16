@@ -1095,8 +1095,22 @@ body.space-ui.home-compact .footer--compact {
     margin-top: 12px;
   }
 
-  body.space-ui.home-compact .hero__note {
+  body.space-ui.home-compact .hero__note,
+  body.space-ui.home-compact .hero__desc {
     display: none;
+  }
+
+  body.space-ui.home-compact .hero__badge {
+    margin-bottom: 6px;
+  }
+
+  body.space-ui.home-compact .hero__title {
+    margin-bottom: 6px;
+    font-size: 1.72rem;
+  }
+
+  body.space-ui.home-compact .hero__lead {
+    margin-bottom: 0;
   }
 
   body.space-ui.home-compact .proofbar__item {
