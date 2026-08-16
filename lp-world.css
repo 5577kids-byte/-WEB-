@@ -4,7 +4,7 @@
   --lp-world-panel: rgba(255, 250, 240, .88);
   --lp-world-text: #3f331d;
   --lp-world-muted: #6b5a3c;
-  --lp-world-accent: #2f6fb8;
+  --lp-world-accent: #3f6fa0;
   --lp-world-line: rgba(120, 100, 60, .3);
   --lp-ui-ease: cubic-bezier(.23, 1, .32, 1);
 }
@@ -31,7 +31,7 @@ body.lp-world-enabled {
   height: 100%;
   transform: scaleX(0);
   transform-origin: left center;
-  background: #2f6fb8;
+  background: #3f6fa0;
   will-change: transform;
 }
 
@@ -161,9 +161,9 @@ body.lp-world-enabled {
   justify-content: center;
   min-height: 44px;
   padding: 10px 16px;
-  border: 1px solid #2f6fb8;
+  border: 1px solid #3f6fa0;
   border-radius: 6px;
-  background: #2f6fb8;
+  background: #3f6fa0;
   color: #fff8ea;
   font-size: .82rem;
   font-weight: 800;
@@ -349,13 +349,13 @@ body.lp-world-enabled .hd__cta:active,
 body.lp-world-enabled .header__cta:active { transform: scale(.97); }
 
 body.lp-world-enabled :where(a, button):focus-visible {
-  outline: 2px solid #2f6fb8;
+  outline: 2px solid #3f6fa0;
   outline-offset: 3px;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .world-route__button:hover { color: #3f331d; border-color: rgba(185, 134, 42, .45); }
-  .world-copy__link:hover { background: #1f5c94; }
+  .world-copy__link:hover { background: #35577c; }
   .world-copy__link--secondary:hover { background: rgba(255, 250, 240, .8); }
 }
 

@@ -99,7 +99,7 @@ async function mountSphereNavigation() {
     const innerShell = new THREE.Mesh(
       new THREE.SphereGeometry(1.72, coarsePointer ? 16 : 28, coarsePointer ? 10 : 18),
       new THREE.MeshBasicMaterial({
-        color: 0x2f6fb8,
+        color: 0x3f6fa0,
         transparent: true,
         opacity: .08,
         depthWrite: false,
